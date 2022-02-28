@@ -37,6 +37,11 @@ header nav ul li a {
     color: white;
 }
 
+header nav ul li:hover {
+    transform: scale(0.8);
+    transition: all, 0.5s;
+}
+
 header span {
     display: none;
 }
