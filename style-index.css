@@ -219,6 +219,22 @@ footer div p a {
     color: rgb(22, 98, 121);
 }
 
+div form {
+    animation: move 5s infinite linear;
+}
+
+div form:hover {
+    animation: none;
+}
+
+@keyframes move {
+    from {
+        transform: rotateY();
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
 
 /*ESTRATEGIA MOBILE LAST*/
 
