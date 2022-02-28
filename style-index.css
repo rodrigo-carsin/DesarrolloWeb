@@ -133,6 +133,8 @@ aside {
     margin-bottom: 50px;
 }
 
+
+
 .info { 
     height: 400px;
     color: black;
@@ -241,6 +243,7 @@ footer div p a {
         height: 150px;
         cursor: pointer;
         font-size: 15px;
+
     }
 
     footer { 
@@ -275,7 +278,7 @@ footer div p a {
         width: 100px;
         height: 100px;
         cursor: pointer;
-        font-size: 15px;
+        font-size: 12px;
     }
 
     section span p {
