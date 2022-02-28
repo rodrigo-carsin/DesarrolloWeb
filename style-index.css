@@ -133,6 +133,15 @@ aside {
     margin-bottom: 50px;
 }
 
+div span:hover {
+    border-radius: 10px;
+    width: 190px;
+    height: 190px;
+    border-color: darkcyan;
+    border-style: outset;
+    background-color: darkcyan;
+    transition: all, 1s;
+}
 
 
 .info { 
