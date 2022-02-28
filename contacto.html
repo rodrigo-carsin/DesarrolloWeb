@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos</title>
+
+    <link rel="stylesheet" href="./style-contacto.css"> <!--forma externa (desde el archivo style.css) - ES LA QUE MAS VAMOS A USAR-->
+
+</head>
+<body>
+    <main>
+
+        <!--MENU-->
+
+    <header>  
+        <div class= "header-container container-area">
+            <aside>
+                <img src="img/logo.jpg" width="100" alt="Foto">
+            </aside>
+                
+            <nav>
+                <ul> <!--lista desordenada-->
+                    <li> <a href="index.html">Home</a> </li> 
+                    <li> <a href="quienes-somos.html">Quienes somos</a> </li> 
+                    <li> <a href="servicios.html">Servicios</a> </li> 
+                    <li> <a href="casos-de-exito.html">Casos de éxito</a> </li> 
+                    <li> <a href="contacto.html">Contacto</a> </li> 
+                </ul>
+            </nav>
+            <span> <img src="./img/burguer.PNG" width="50px" alt="hamburguesa"></span>  
+        </div> 
+    </header>
+
+       <!--PRINCIPAL-->
+        <section class="hero">
+            <div>
+                <h2 class="hero__text">Dejanos tu consulta</h2>
+                <h3>Te contactaremos a la brevedad</h3>
+            </div>
+        </section>
+
+        <!--FORM-->
+
+<section class="contacto">
+
+    <form action="contacto.html">
+
+        <div class="contacto-grid">
+
+            <label class="contacto-grid__flex" for="nombre">Nombre:</label> <!--etiqueta nombre-->
+            <input class="contacto-grid__flex" type="text" name="nombre" id="nombre"> <!--txtbox nombre-->
+
+            <label class="contacto-grid__flex" for="mail">Email:</label> <!--etiqueta email-->      
+            <input class="contacto-grid__flex" type="email" name="mail" id="mail"> <!--txtbox email-->
+
+            <label class="contacto-grid__flex" for="telefono">Teléfono:</label> <!--etiqueta tel-->
+            <input class="contacto-grid__flex" type="tel" name="telefono" id="telefono"> <!--txtbox tel-->
+
+            <label class="contacto-grid__flex" for="empresa">Empresa:</label> <!--etiqueta empresa-->
+            <input class="contacto-grid__flex" type="text" name="empresa" id="empresa"> <!--txtbox emp-->
+
+            <label class="contacto-grid__flex" for="pais">País:</label> <!--etiqueta pais-->
+            <input class="contacto-grid__flex" type="text" name="pais" id="pais"> <!--txtbox pais-->
+
+            <label class="contacto-grid__flex" for="servicio">Tipo de servicio</label> <!--etiqueta tipo-->
+            <input class="contacto-grid__flex" type="checkbox" name="servicio" id="servicio"> <!--checkbox tipo-->
+        </div>
+        </form>
+    </section>
+
+    <section class="empeza">
+        <form class="hero__buttom" action="contacto.html"></form>
+            <label for="Solicitar asesoramiento"></label>
+            <button class="hero__buttom--pointer" type="reset">Solicitar asesoramiento</a></button>
+        </form>
+
+    </section>
+
+
+
+    <footer>
+        <p>Copyright 2022</p>
+        <p>Síguenos en nuestras redes</a></p>
+        <img src="./img/—Pngtree—social media icons_3557804.png" width="120" alt="redes">
+        <div>
+            <p><a href="index.html">Volver a Home</a></p>
+        </div>
+    </footer>
+</main>
+</body>
+</html>
