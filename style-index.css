@@ -10,12 +10,12 @@ body {
 
 
 
-header {
+/* header {
     background-color: black;
     color: white;
-}
+} */
 
-.header-container {
+/* .header-container {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -35,12 +35,12 @@ header nav ul li a {
     font-weight: bold;
     text-decoration: none;
     color: white;
-}
+} */
 
-header nav ul li:hover {
+/* header nav ul li:hover {
     transform: scale(0.8);
     transition: all, 0.5s;
-}
+} */
 
 header span {
     display: none;
