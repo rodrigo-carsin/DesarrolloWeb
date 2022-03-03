@@ -9,41 +9,22 @@ body {
 }
 
 
-
-header {
-    background-color: black;
-    color: white;
-}
-
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-}
-
 header nav ul {
-    list-style: none;
-    display: flex;
-}
+    justify-content: center;
+} 
 
-header nav ul li a {
-    padding: 8px 12px;
-    margin: 0 10px;
+.lista1 {
     font-size: 20px;
-    border-radius: 20px;
+    padding: 0 8px;
+    margin: 0 10px;
+    border-radius: 15px;    
     background-color: rgba(255,255,255,0.2);
     font-weight: bold;
-    text-decoration: none;
-    color: white;
 }
 
 header nav ul li:hover {
     transform: scale(0.8);
     transition: all, 0.5s;
-}
-
-header span {
-    display: none;
 }
 
 .container-area {
