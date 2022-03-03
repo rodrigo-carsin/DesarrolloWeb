@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 150%;
+    font-size: 120%;
 }
 
 header nav ul {
@@ -117,8 +117,7 @@ aside {
     cursor: pointer;
     margin-bottom: 50px;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    font-size: 24px;
 }
 
 section div {
@@ -137,17 +136,6 @@ div article:hover {
     background-color: darkcyan;
     transition: all, 1s;
 }
-
-/* div span:hover {
-    border-radius: 10px;
-    width: 190px;
-    height: 190px;
-    border-color: darkcyan;
-    border-style: outset;
-    background-color: darkcyan;
-    transition: all, 1s;
-} */
-
 
 .info { 
     height: 400px;
