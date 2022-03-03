@@ -116,9 +116,19 @@ aside {
     height: 200px;
     cursor: pointer;
     margin-bottom: 50px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
-div span:hover {
+section div {
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 50px;
+}
+
+div article:hover {
     border-radius: 10px;
     width: 190px;
     height: 190px;
@@ -127,6 +137,16 @@ div span:hover {
     background-color: darkcyan;
     transition: all, 1s;
 }
+
+/* div span:hover {
+    border-radius: 10px;
+    width: 190px;
+    height: 190px;
+    border-color: darkcyan;
+    border-style: outset;
+    background-color: darkcyan;
+    transition: all, 1s;
+} */
 
 
 .info { 
