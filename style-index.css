@@ -240,8 +240,8 @@ div form:hover {
 
 }
 
-@media (max-width: 992px) {
-    header nav div form {
+@media (max-width: 1048px) {
+    header nav div span {
         display: none;
     }
 }
