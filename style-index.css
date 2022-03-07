@@ -231,6 +231,21 @@ div form:hover {
 
 /*ESTRATEGIA MOBILE LAST*/
 
+@media (max-width: 1180px) {
+
+    .lista1 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 992px) {
+    header nav div form {
+        display: none;
+    }
+}
+
 @media (max-width: 967px) {
     body {
         font-size: 120%;
