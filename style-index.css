@@ -244,6 +244,14 @@ div form:hover {
     header nav div span {
         display: none;
     }
+
+    .hero__buttom {
+        font-size: 15px;
+    }
+
+    .info__buttom {
+        font-size: 15px; 
+    }
 }
 
 @media (max-width: 967px) {
@@ -361,4 +369,15 @@ div form:hover {
         font-size: 10px;
     }
 
+}
+
+@media (max-width: 370px) {
+    .info {
+        height: 500px;
+        align-items: center;
+        text-align: center;
+
+    }
+
+   
 }
