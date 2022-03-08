@@ -164,6 +164,13 @@ footer div p a {
 
 }
 
+div article:hover {
+
+    background-image: linear-gradient(to top, rgb(22, 98, 121), black, rgb(22, 98, 121));
+    transition: all, 2s;
+
+}
+
 @media (max-width: 1048px) {
     header nav div span {
         display: none;
