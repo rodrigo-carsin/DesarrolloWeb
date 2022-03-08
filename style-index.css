@@ -68,6 +68,7 @@ aside {
     justify-content: center;
     justify-items: center;
     margin-top: 15px;
+    font-size: 18px;
 }    
 
 .hero__buttom--pointer {
@@ -179,6 +180,8 @@ div article:hover {
     justify-content: center;
     justify-items: center;
     margin-top: 15px;
+    font-size: 18px;
+
 }    
 
 .hero__buttom--pointer {

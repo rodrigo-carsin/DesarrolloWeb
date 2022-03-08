@@ -69,6 +69,8 @@ aside {
     justify-content: center;
     justify-items: center;
     margin-top: 15px;
+    font-size: 18px;
+
 }    
 
 .hero__buttom--pointer {
@@ -153,6 +155,35 @@ footer div p a {
 }
 
 /*ESTRATEGIA MOBILE LAST*/
+@media (max-width: 1180px) {
+
+    .lista1 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 1048px) {
+    header nav div span {
+        display: none;
+    }
+
+    .hero__buttom {
+        font-size: 15px;
+    }
+
+    .info__buttom {
+        font-size: 15px; 
+    }
+}
+
+@media (max-width: 991px) {
+    .mision { 
+        height: 700px;
+    
+    }
+}
 
 @media (max-width: 967px) {
     body {
@@ -200,7 +231,7 @@ footer div p a {
     }
 
     .mision {
-        height: 600px;
+        height: 800px;
     }
 
 }
@@ -213,7 +244,7 @@ footer div p a {
   
     .mision {
         grid-template-columns: repeat(1, 1fr);
-        height: 800px;
+        height: 850px;
     }
 
     footer p {
@@ -222,14 +253,14 @@ footer div p a {
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 505px) {
 
     section div p {
         font-size: 15px;
     }
 
     .mision {
-        height: 1300px;
+        height: 1000px;
     }
 
     section div span {
@@ -239,5 +270,14 @@ footer div p a {
     footer p {
         font-size: 10px;
     }
+
+}
+
+@media (max-width: 400px) {
+
+    .mision {
+        height: 1300px;
+    }
+
 
 }
