@@ -4,7 +4,7 @@
   "description": "repo para el curso de desarrollo web",
   "main": "index.js",
   "scripts": {
-    "dev": "sass style.scss style.min.css -w --no-source-map -s compressed"
+    "dev": "sass scss/style.scss style.min.css -w --no-source-map -s compressed"
   },
   "repository": {
     "type": "git",
