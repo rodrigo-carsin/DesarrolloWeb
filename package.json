@@ -1,0 +1,19 @@
+{
+  "name": "entregable5",
+  "version": "1.0.0",
+  "description": "repo para el curso de desarrollo web",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass style.scss style.min.css -w --no-source-map -s compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigo-carsin/DesarrolloWeb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigo-carsin/DesarrolloWeb/issues"
+  },
+  "homepage": "https://github.com/rodrigo-carsin/DesarrolloWeb#readme"
+}
