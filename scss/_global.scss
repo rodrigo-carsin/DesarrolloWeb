@@ -7,3 +7,23 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: $textBase;
 }
+
+@mixin button ($paddingLR) {
+    padding: 10px $paddingLR;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    // background-color: black;
+}
+
+$rrss: (
+    contacto: black,
+    quienes: grey,
+);
+
+@each $rs, $color in $rrss {
+    .btn-#{$rs} {
+        background-color: $color;
+    }
+}

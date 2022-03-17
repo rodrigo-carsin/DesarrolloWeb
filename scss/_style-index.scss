@@ -43,14 +43,10 @@ aside {
     font-size: 18px;
 }    
 
-// .hero__buttom--pointer {
-//     padding: 10px 50px;
-//     cursor: pointer;
-//     color: white;
-//     font-weight: bold;
-//     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-//     background-color: black;
-// }
+.hero__buttom--pointer {
+    @include button(50px)
+
+}
 
 
 .service { 
@@ -156,14 +152,14 @@ div article:hover {
 
 }    
 
-.hero__buttom--pointer {
-    padding: 10px 50px;
-    cursor: pointer;
-    color: white;
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: black;
-}
+// .hero__buttom--pointer {
+//     padding: 10px 50px;
+//     cursor: pointer;
+//     color: white;
+//     font-weight: bold;
+//     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+//     background-color: black;
+// }
 
 footer { 
     font-size: 80%;
