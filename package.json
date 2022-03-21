@@ -4,7 +4,7 @@
   "description": "repo para el curso de desarrollo web",
   "main": "index.js",
   "scripts": {
-    "dev": "sass scss/style-home.scss style.min.css -w --no-source-map -s compressed",
+    "dev": "sass scss/style-home.scss style-home.min.css -w --no-source-map -s compressed",
     "quien": "sass scss/style-quienes-somos.scss style-quienes-somos.min.css -w --no-source-map -s compressed"
     
   },
