@@ -1,0 +1,21 @@
+footer { 
+    font-size: 80%;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+
+}
+
+footer img {
+    margin-top: -20px;
+    margin-bottom: -40px;
+}
+
+footer div p a {
+    text-decoration: none;
+    color: rgb(22, 98, 121);
+}
