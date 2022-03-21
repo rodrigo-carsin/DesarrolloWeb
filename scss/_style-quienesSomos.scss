@@ -1,0 +1,60 @@
+
+.lista1 {
+    font-size: 20px;
+    padding: 0 8px;
+    margin: 0 10px;
+    border-radius: 15px;    
+    background-color: rgba(255,255,255,0.2);
+    font-weight: bold;
+}
+
+.mision { 
+    height: 350px;
+    color: white;
+    display: grid;
+    padding: 0 50px;
+    background-color: rgb(22, 98, 121);
+
+}
+
+div article h3 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+div article p {
+    display: grid;
+    font-size: 16px;
+    margin: 50px 20px;
+    justify-items: center;
+
+}
+
+.mision-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    margin-top: 15px;
+    
+}
+
+.mision-grid__text {
+    font-size: 16px;
+    margin: 0 40px;
+}
+
+.contacto { 
+    height: 200px;
+    color: black;
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.contacto-grid__text {
+    text-align: center;
+}
+
