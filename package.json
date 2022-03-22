@@ -7,7 +7,8 @@
     "dev": "sass scss/style-home.scss style-home.min.css -w --no-source-map -s compressed",
     "quien": "sass scss/style-quienes-somos.scss style-quienes-somos.min.css -w --no-source-map -s compressed",
     "serv": "sass scss/style-servicios.scss style-servicios.min.css -w --no-source-map -s compressed",
-    "proy": "sass scss/style-proyectos.scss style-proyectos.min.css -w --no-source-map -s compressed"
+    "proy": "sass scss/style-proyectos.scss style-proyectos.min.css -w --no-source-map -s compressed",
+    "con": "sass scss/style-contacto.scss style-contacto.min.css -w --no-source-map -s compressed"
 
   },
   "repository": {
