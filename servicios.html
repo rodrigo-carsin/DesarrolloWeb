@@ -4,9 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style-servicios.min.css"> <!--forma externa (desde el archivo style.css) - ES LA QUE MAS VAMOS A USAR-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"> </script>
+
     <title>Servicios</title>
 
-    <link rel="stylesheet" href="./style-servicios.css">
+    <!-- <link rel="stylesheet" href="./style-servicios.css"> -->
+
 
 
 </head>
@@ -16,24 +23,48 @@
 
         <!--MENU-->
 
-    <header>  
-        <div class= "header-container container-area">
-            <aside>
-                <img src="img/logo.jpg" width="100" alt="Foto">
-            </aside>
-                
-            <nav>
-                <ul> <!--lista desordenada-->
-                    <li> <a href="index.html">Home</a> </li> 
-                    <li> <a href="quienes-somos.html">Quienes somos</a> </li> 
-                    <li> <a href="servicios.html">Servicios</a> </li> 
-                    <li> <a href="casos-de-exito.html">Casos de éxito</a> </li> 
-                    <li> <a href="contacto.html">Contacto</a> </li> 
-                </ul>
+        <header>
+
+            <nav class="navbar navbar-text navbar-expand-lg navbar-dark bg-black">
+              <div class="container-fluid">
+
+                <img src="img/logo.jpg" width="100" alt="Foto">               
+              
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 collapse navbar-collapse" id="navbarToggleExternalContent">
+
+                    <li class="nav-item lista1">
+                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item lista1">
+                      <a class="nav-link active " href="quienes-somos.html">Quienes somos</a>
+                    </li>
+                    <li class="nav-item lista1">
+                      <a class="nav-link active" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item lista1">
+                      <a class="nav-link active" href="casos-de-exito.html">Casos de éxito</a>
+                    </li>
+                    <li class="nav-item lista1">
+                      <a class="nav-link active" href="contacto.html">Contacto</a>
+                    </li>
+                    
+                  </ul>
+
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                <span>
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-info" type="submit">Buscar</button>
+                  </form>
+                </span>
+              
+              </div>
+              
             </nav>
-            <span> <img src="./img/burguer.PNG" width="50px" alt="hamburguesa"></span>  
-        </div> 
-    </header>
+           </header>
 
        <!--PRINCIPAL-->
 
