@@ -170,6 +170,21 @@ div article:hover {
     background-color: black;
 }
 
+.contacto { 
+    height: 200px;
+    color: black;
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.contacto-grid__text {
+    text-align: center;
+}
+
 @keyframes move {
     from {
         transform: rotateY();
