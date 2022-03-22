@@ -3,3 +3,212 @@
 @import './header';
 @import './footer';
 
+.container-area {
+    display: grid;
+    gap: 15px;
+    
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 1fr;
+
+    grid-template-areas: 
+        "logo lista lista lista" /*son nombre*/
+        ;
+
+    align-items: center;
+}
+
+nav {
+    grid-area: lista;
+}
+
+aside {
+    grid-area: logo;
+}
+
+.hero { 
+    background-image: url('./img/5065282.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.hero__title-proyect {
+    font-size: 50px;
+}
+
+.hero__buttom {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 15px;
+}    
+
+.hero__buttom--pointer {
+    padding: 10px 50px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+
+.proyect {
+    height: 550px;
+    color: white;
+    padding: 0 50px;
+    background-color: rgb(22, 98, 121);    
+
+}
+
+.proyect-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+    justify-items: center;
+}
+
+.proyect__item {
+    margin-top: 40px;
+    width: 300px;
+    height: 120px;
+    cursor: pointer;
+}
+
+.contacto { 
+    height: 200px;
+    color: black;
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.contacto-grid__text {
+    text-align: center;
+}
+
+/*ESTRATEGIA MOBILE LAST*/
+
+@media (max-width: 967px) {
+    body {
+        font-size: 120%;
+    }
+    
+    header div aside img {
+        width: 50px;
+    }
+    
+    header nav ul li a {
+        padding: 8px 12px;
+        margin: 0 10px;
+        font-size: 15px;
+        border-radius: 20px;
+        background-color: rgba(255,255,255,0.2);
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+    }
+    
+
+    footer { 
+        font-size: 20px;
+
+    }
+
+}
+
+@media (max-width: 799px) {
+
+    body {
+        font-size: 120%;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header span {
+        display: block;
+    }
+
+    .container-area {
+        display: flex;    
+    }
+
+    .proyect-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: -10px;
+        margin: 0 auto;
+
+    }
+
+    .proyect__item {
+        margin-top: 40px;
+        width: 250px;
+        height: 100px;
+        cursor: pointer;
+    }
+
+    section span p {
+        margin-left: 20px;
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .hero {
+        font-size: 16px;
+    }
+
+    .hero__title-proyect {
+        font-size: 30px;
+    }
+
+    .service-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        margin-top: 15px;
+        
+    }
+
+    .proyect {
+        height: 120%;
+    }
+    .proyect-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .proyect__item {
+        margin-top: 20px;
+        width: 220px;
+        height: 80px;
+        cursor: pointer;
+    }
+
+    section span p {
+        margin-top: -50px;
+        font-size: 15px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+
+
+}
