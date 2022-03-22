@@ -1,0 +1,184 @@
+@import './variable';
+@import './global';
+@import './header';
+@import './footer';
+
+.container-area {
+    display: grid;
+    gap: 15px;
+    
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 1fr;
+
+    grid-template-areas: 
+        "logo lista lista lista" /*son nombre*/
+        ;
+
+    align-items: center;
+}
+
+nav {
+    grid-area: lista;
+}
+
+aside {
+    grid-area: logo;
+}
+
+.hero { 
+    background-image: url('./img/5065282.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    text-align: center;
+}
+
+.hero__buttom {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 15px;
+}    
+
+.hero__buttom--pointer {
+    padding: 10px 50px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+
+
+.contacto { 
+    height: 200px;
+    color: black;
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.contacto-grid__text {
+    text-align: center;
+}
+
+.contacto2 { 
+    height: 300px;
+    color: white;
+    display: grid;
+    
+    padding: 0 50px;
+    background-color: rgb(22, 98, 121);
+
+}
+
+.contacto2-grid {
+   
+    display: grid;
+  
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    justify-items: center;
+    margin-top: 30px;
+}
+
+.contacto2-grid__flex {
+    margin: 0 20px;
+}
+
+
+/*ESTRATEGIA MOBILE LAST*/
+
+@media (max-width: 1048px) {
+    header nav div span {
+        display: none;
+    }
+
+    .hero__buttom {
+        font-size: 15px;
+    }
+
+    .info__buttom {
+        font-size: 15px; 
+    }
+}
+
+@media (max-width: 978px) {
+    body {
+        font-size: 120%;
+    }
+    
+    header div aside img {
+        width: 50px;
+    }
+    
+    header nav ul li a {
+        padding: 8px 12px;
+        margin: 0 10px;
+        font-size: 15px;
+        border-radius: 20px;
+        background-color: rgba(255,255,255,0.2);
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+    }
+
+    footer { 
+        font-size: 20px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 799px) {
+
+    body {
+        font-size: 120%;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header span {
+        display: block;
+    }
+
+    .container-area {
+        display: flex;    
+    }
+
+    .contacto2 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 530px) {
+
+    .contacto2 { 
+        height: 400px;
+    
+    }
+
+    .contacto2-grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+    }
+    
+
+    footer p {
+        font-size: 10px;
+    }
+
+}
