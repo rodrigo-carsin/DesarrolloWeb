@@ -100,6 +100,20 @@ aside {
 
 /*ESTRATEGIA MOBILE LAST*/
 
+@media (max-width: 1048px) {
+    header nav div span {
+        display: none;
+    }
+
+    .hero__buttom {
+        font-size: 15px;
+    }
+
+    .info__buttom {
+        font-size: 15px; 
+    }
+}
+
 @media (max-width: 967px) {
     body {
         font-size: 120%;
@@ -120,6 +134,13 @@ aside {
         color: white;
     }
     
+    .hero__buttom {
+        font-size: 15px;
+    }
+
+    .info__buttom {
+        font-size: 15px; 
+    }
 
     footer { 
         font-size: 20px;
@@ -188,7 +209,7 @@ aside {
     }
 
     .proyect {
-        height: 120%;
+        height: 700px;
     }
     .proyect-grid {
         grid-template-columns: repeat(1, 1fr);
