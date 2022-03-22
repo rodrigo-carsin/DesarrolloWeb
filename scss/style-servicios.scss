@@ -336,7 +336,24 @@ div article:hover {
 
 }
 
+
+@media (max-width: 490px) {
+
+    .service {
+        height: 600px;
+
+    }
+
+}
+
+
 @media (max-width: 370px) {
+
+    .service {
+        height: 650px;
+
+    }
+
     .info {
         height: 500px;
         align-items: center;
