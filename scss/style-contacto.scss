@@ -91,12 +91,22 @@ aside {
     grid-template-rows: repeat(6, 1fr);
     justify-items: center;
     margin-top: 30px;
+    
 }
 
 .contacto2-grid__flex {
     margin: 0 20px;
 }
-
+section form div input {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+ 
+section form div select {
+    margin: 0 20px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
 
 /*ESTRATEGIA MOBILE LAST*/
 
