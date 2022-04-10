@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\.."
+		},
+		{
+			"path": "..\\..\\..\\Proyectos"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\..\\wamp\\www"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Coder"
+	}
+}
