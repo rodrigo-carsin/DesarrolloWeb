@@ -11,7 +11,7 @@
     grid-auto-rows: 1fr;
 
     grid-template-areas: 
-        "logo lista lista lista" /*son nombre*/
+        "logo lista lista lista" 
         ;
 
     align-items: center;
@@ -97,8 +97,6 @@ aside {
 .contacto-grid__text {
     text-align: center;
 }
-
-/*ESTRATEGIA MOBILE LAST*/
 
 @media (max-width: 1048px) {
     header nav div span {

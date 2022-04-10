@@ -2,7 +2,6 @@
 @import './global.scss';
 @import './header.scss';
 @import './footer.scss';
-// @import './style-quienesSomos';
 
 .lista1 {
     font-size: 20px;
@@ -21,7 +20,7 @@
     grid-auto-rows: 1fr;
 
     grid-template-areas: 
-        "logo lista lista lista" /*son nombre*/
+        "logo lista lista lista" 
         ;
 
     align-items: center;
@@ -118,7 +117,6 @@ div article p {
     text-align: center;
 }
 
-/*ESTRATEGIA MOBILE LAST*/
 @media (max-width: 1180px) {
 
     .lista1 {

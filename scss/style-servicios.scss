@@ -11,7 +11,7 @@
     grid-auto-rows: 1fr;
 
     grid-template-areas: 
-        "logo lista lista lista" /*son nombre*/
+        "logo lista lista lista" 
         ;
 
     align-items: center;
@@ -82,7 +82,6 @@ aside {
     color: white;
 }
 
-/*BOX MODEL*/
 .boxModel {
     display: flex;
     align-items: center;
@@ -119,7 +118,6 @@ div article:hover {
     height: 400px;
     color: black;
     display: grid;
-    /* grid-template-areas: "boton texto texto";*/
     grid-template-columns: repeat(2, 1fr); 
     justify-items: center;
     align-items: center;
@@ -129,9 +127,7 @@ div article:hover {
 }
 
 .info__item--big {
-    /*inicia fila. inicia columna, termina fila, termina columna */
     grid-area: 1 / 1 / 2 / 2; 
-    /* place-self: center; */
 
     background-image: linear-gradient(45deg, #406882, #b1d0e0);
     display: flex;
@@ -194,8 +190,6 @@ div article:hover {
     }
 }
 
-/*ESTRATEGIA MOBILE LAST*/
-
 @media (max-width: 1180px) {
 
     .lista1 {
@@ -239,8 +233,6 @@ div article:hover {
         color: white;
     }
     
-   
-    /*BOX MODEL*/
     .boxModel {
         background-color: black;
         text-align: center;
